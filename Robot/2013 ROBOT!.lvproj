@@ -38,11 +38,11 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">2</Property>
 		<Property Name="host.TargetOSID" Type="UInt">14</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -142,9 +142,9 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="autolock.vi" Type="VI" URL="../autolock.vi"/>
 		<Item Name="autolock2.vi" Type="VI" URL="../../../../Documents/LabVIEW Data/2013 ROBOT!/autolock2.vi"/>
+		<Item Name="Debug.vi" Type="VI" URL="../Debug.vi"/>
 		<Item Name="climber ten pt.vi" Type="VI" URL="../../../../Documents/LabVIEW Data/2013 ROBOT!/climber ten pt.vi"/>
 		<Item Name="Climber.vi" Type="VI" URL="../Climber.vi"/>
-		<Item Name="Debug.vi" Type="VI" URL="../Debug.vi"/>
 		<Item Name="Driverstation.vi" Type="VI" URL="../Driverstation.vi"/>
 		<Item Name="Drivetrain.vi" Type="VI" URL="../Drivetrain.vi"/>
 		<Item Name="Latch.vi" Type="VI" URL="../Latch.vi"/>
